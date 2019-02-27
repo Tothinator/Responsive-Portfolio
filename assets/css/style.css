@@ -49,6 +49,7 @@ h1 {
 p {
     overflow: auto;
     text-align: justify;
+    margin-bottom: 20px;
 }
 
 .links {
@@ -153,10 +154,11 @@ p {
 #profile_picture {
     float: left;
     margin-right: 20px;
+    display:inline;
 }
 
 #pic-and-paragraph {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #copyright {
