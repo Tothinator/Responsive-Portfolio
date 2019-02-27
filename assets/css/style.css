@@ -1,0 +1,175 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    color: #777777;
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/prism.png");
+    font-size: 20px;
+    line-height: 150%;
+}
+
+header {
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #cccccc;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #666666;
+    height: 50px;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width: 8px 0 0 0; 
+    margin-top: -75px;
+    color: #ffffff;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #777777;
+}
+
+p {
+    overflow: auto;
+    text-align: justify;
+}
+
+.links {
+    display: inline-block;
+    font-size: 22px;
+    padding: 20px;
+}
+
+.header-container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.content-container {
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto 100px;
+    padding: 30px;
+}
+
+.links-container{
+    margin-left: auto;
+}
+
+.button {
+    padding: 10px 40px;
+    color: #ffffff;
+    background: #4aaaa5;
+    border: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#name {
+    color: #eee;
+    background-color: #4aaaa5;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    min-height: 100%;
+}
+
+.input {
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 15px 0;
+}
+
+.page-title {
+    color: #4aaaa5;
+    padding: 20px 0 20px 0;
+    border-style: inset;
+    border-width: 0 0 2px 0;
+    border-color: #999999;
+    margin: 0 0 20px 0;
+}
+
+.img-pair {
+    display: flex;
+}
+
+.portfolio-img{
+    float: left;
+    display: flex;
+    margin: 0 20px 20px 0;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+
+.img-banner {
+    background-color: #4aaaa5;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 0;
+    width: 100%;
+}
+
+#easy-link {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#profile_picture {
+    float: left;
+    margin-right: 20px;
+}
+
+#pic-and-paragraph {
+    margin-bottom: 30px;
+}
+
+#copyright {
+    margin-bottom: 10px;
+}
+
+#contact-message {
+    height: 300px;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
