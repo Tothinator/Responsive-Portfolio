@@ -29,17 +29,25 @@
             </div>
         </header>
 
-        <div class="content-container">
-            <h1 class="page-title">Contact</h1>
-            <form>
-                Name<br>
-                <input type="text" class="input" name="name">
-                Email<br>
-                <input type="text" class="input" name="email">
-                Message<br>
-                <textarea class="input" id="contact-message" name="message"></textarea>
-                <input type="submit" value="Submit" class="button">
-            </form>
+        <div class="content-wrapper">
+            <div class="content-container">
+                <h1 class="page-title">Contact</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="inputMessage">Name</label>
+                        <input type="text" class="input" name="name" id="inputMessage" placeholder="Enter full name">        
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">Email</label>
+                        <input type="text" class="input" name="name" id="inputEmail" placeholder="Example@gmail.com">        
+                    </div>
+                    <div class="form-group">
+                        <label for="inputMessage">Name</label>
+                        <textarea class="input" id="contact-message" name="message"></textarea>        
+                    </div>
+                    <input type="submit" value="Submit" class="button">
+                </form>
+            </div>
         </div>
     </div>
 
