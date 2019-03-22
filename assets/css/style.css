@@ -132,7 +132,7 @@ input {
 
 .portfolio-img{
     float: left;
-    display: flex;
+    /* display: flex; */
     margin: 0 20px 20px 0;
     position: relative;
     text-align: center;
@@ -142,11 +142,15 @@ input {
 .img-banner {
     background-color: #4aaaa5;
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 15px 0;
     width: 100%;
+}
+
+.github-code {
+    margin-top: 0px;
 }
 
 #name {
@@ -159,7 +163,7 @@ input {
 
 #easy-link {
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 15px 0;
